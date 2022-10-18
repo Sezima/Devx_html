@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      h1 {
+        display: none;
+      }
+
+      @media screen and (max-width: 576px) {
+        .Mobile {
+          display: block;
+        }
+        body {
+          background-color: lightblue;
+        }
+      }
+
+      @media screen and (max-width: 798px) {
+        .Tablet {
+          display: block;
+        }
+        body {
+          background-color: rgb(175, 68, 68);
+        }
+      }
+
+      @media screen and (max-width: 998px) {
+        .Laptop {
+          display: block;
+        }
+        body {
+          background-color: black;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="Mobile">Mobile</h1>
+    <h1 class="Tablet">Tablet</h1>
+    <h1 class="Laptop">Laptop</h1>
+    <h1 class="Desktop">Desktop</h1>
+    <h1 class="Huge">Huge</h1>
+  </body>
+</html>
